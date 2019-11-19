@@ -1,0 +1,71 @@
+body{
+    background-color: dimgrey;
+}
+.container{
+    height: 550px;
+    width: 1080px;
+    margin: 25px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(image/Computer-Tech-Wallpaper-10-1440x900.jpg);
+    width: 100%;
+}
+#calculator{
+    height: 500px;
+    width: 300px;
+    background-color: aliceblue;
+    position: relative;
+    margin: 0px auto;
+    top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    min-width:300px;
+}
+#result{
+    height: 100px;
+}
+#history{
+    text-align: right;
+    margin: 0 20px;
+    height: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    margin: 10px 20px;
+    height: 6px;
+    font-size: 30px;
+}
+#output.smaller{
+    font-size: 18px;
+}
+#keyboard{
+    height: auto;
+    padding-top: 15px;
+}
+.operator,.number{
+    height: 50px;
+    width: 50px;
+    margin: 12px;
+    float: left;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    outline: inherit;
+}
+button:nth-child(20){
+    background-color: chartreuse;
+}
+button:nth-child(4){
+    background-color: burlywood;
+}
+button:nth-child(8){
+    background-color: chocolate;
+}
+button:nth-child(12){
+    background-color: cornflowerblue;
+}
+button:nth-child(16){
+    background-color: darkolivegreen;
+}
